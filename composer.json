@@ -1,0 +1,17 @@
+{
+    "name": "cmx/elf",
+    "description": "develop common modules",
+    "type": "library",
+    "require": {
+        "php": ">=7.4.33"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmx\\Elf\\": "src/"
+        },
+        "files": [
+            "src\\Helper\\helper.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
