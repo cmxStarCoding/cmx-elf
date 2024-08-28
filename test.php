@@ -3,6 +3,7 @@
 require 'vendor/autoload.php';
 
 use Illuminate\Container\Container;
+use Illuminate\Config\Repository as Config;
 
 
 interface MyInterface
