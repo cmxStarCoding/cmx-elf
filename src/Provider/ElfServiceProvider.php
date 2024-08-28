@@ -16,7 +16,7 @@ class ElfServiceProvider extends ServiceProvider
         } else {
             // 非 Laravel 环境中的处理方式
             $this->publishes([
-                __DIR__.'/Config/cmx_elf_config.php' => base_path('Config/yourpackage.php'),
+                __DIR__.'/Config/cmx_elf_config.php' => base_path('cmx_elf_config.php'),
             ], 'cmx-elf-config');
         }
     }
