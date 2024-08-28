@@ -3,7 +3,9 @@
     "description": "develop common modules",
     "type": "library",
     "require": {
-        "php": ">=7.4.33"
+        "php": ">=7.4.33",
+        "illuminate/container": "^8.0",
+         "ext-redis": "*"
     },
     "autoload": {
         "psr-4": {
