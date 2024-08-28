@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cmx\\Elf\\ElfServiceProvider"
+                "Cmx\\Elf\\Provider\\ElfServiceProvider"
             ]
         }
     }
