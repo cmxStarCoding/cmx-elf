@@ -13,7 +13,7 @@ class TestCache
      */
     public function __construct(Config $config)
     {
-
+        $this->config = $config;
     }
 
     public function getTestConfig(){
